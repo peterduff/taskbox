@@ -1,0 +1,10 @@
+@import '~src/styles.scss';
+
+div.img-container {
+    overflow: hidden;
+    border: 1px solid $ghost-grey;
+
+    img {
+        max-width: 100%;
+    }
+}

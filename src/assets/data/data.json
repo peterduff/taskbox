@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "Cat",
+        "state": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Felis_catus-cat_on_snow.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Dog",
+        "state": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Huskiesatrest.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Mouse",
+        "state": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/%D0%9C%D1%8B%D1%88%D1%8C_2.jpg"
+    }
+]

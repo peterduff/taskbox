@@ -1,0 +1,9 @@
+@import '~src/styles.scss';
+
+div.list {
+    background-color: $gallery-white;
+
+    &.active {
+        background-color: lighten($anakiwa, 5%);
+    }
+}

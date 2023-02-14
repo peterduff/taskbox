@@ -1,0 +1,7 @@
+<div *ngIf="activeItem; else selectItem" class="img-container m-5 rounded">
+    <img [src]="activeItem?.imageUrl">
+</div>
+
+<ng-template #selectItem>
+    <div class="m-5 p-3">Please select an item.</div>
+</ng-template>

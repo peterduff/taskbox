@@ -1,0 +1,11 @@
+<div class="m-5 border rounded overflow-hidden">
+    <ng-container *ngIf="items; else noItems">
+        <div class="list" *ngFor="let item of items; let last = last" [class.border-bottom]="!last" [class.active]="item.id === activeItem?.id">
+            <app-list-item [item]="item" (click)="setActiveItem(item)"></app-list-item>
+        </div>
+    </ng-container>
+</div>
+
+<ng-template #noItems>
+    <div class="list px-3 py-2">- No items found -</div>
+</ng-template>
